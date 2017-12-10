@@ -1,0 +1,235 @@
+* {
+	box-sizing:  border-box;
+	margin:  0 auto;
+}
+
+
+body {
+	font-family: Chivo, sans-serif;
+}
+
+
+header {
+	background-color: #f4f4f4;
+	line-height: 3;
+}
+
+
+header center {
+	color: #e78244;
+	font-size:  80px;
+	font-family: Chivo, sans-serif;
+	text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+}
+
+#I {
+	font-family: Verdana;
+	font-size: 85px;
+}
+
+
+.underheader {
+	background-color: #38a18c;
+}
+
+
+article h1 {
+	text-align: center;
+	font-size: 80px;
+	font-weight:  bold;
+	color: #2e4a56;
+	line-height: 2.5;
+	text-shadow: 1px 1px 2px black, 0 0 25px lightgray, 0 0 5px darkgray;
+}
+
+
+.flex {
+	display: flex;
+	background-color:  #38a18c;
+}
+
+
+figure {
+	padding:  70px;
+}
+
+
+img {
+	padding:  0px;
+	box-shadow: 1px 1px 2px black, 0 0 60px lightgray, 0 0 10px darkgray;
+	border-radius: 250px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+figure p {
+	font-size: 22px;
+	font-weight:  bold;
+	margin-top: 25px;
+}
+
+
+.lk {
+	margin-top: 3px;
+}
+
+
+figcaption .lk:hover {
+	transform: scale(1.1);
+	transition: ease-in 0.4s;
+}
+
+
+.price {
+	background-color: #e4e4e4;
+	text-align: center;
+	padding:  30px;
+}
+
+
+.price div {
+	box-shadow: 4px 6px 8px gray;
+}
+
+
+.price div:hover {
+	transform: scale(1.3);
+	transition: 0.3s;
+}
+
+
+p a {
+	font-size: 40px;
+	text-align: center;
+	text-decoration:  none;
+	color: #2d4452;
+	line-height: 1.8;
+	text-shadow: 1px 1px 2px lightgray, 0 0 25px darkgray, 1px 1px 5px black;
+}
+
+
+.price div  {
+	border: solid  3px #696969;
+	border-radius: 20px;
+	width: 25%;
+	background-color: #d4d4d4;
+}
+
+
+footer {
+	text-align: center;
+	padding: 25px;
+	background-color:  #b8b9be;
+}
+
+
+#footer {
+	color:  #f4f4f4;
+	font-size: 20px;
+	font-family: Chivo, sans-serif;
+}
+
+
+/* Second page with inputform */
+
+.headerp2 {
+	text-decoration:  none;
+	color: #e78244;
+}
+
+
+.background {
+	background-color: #406a80;	
+	padding-top: 80px;
+}
+
+
+.background2 {
+	background-color: #406a80;
+	padding-top: 15px;	
+	padding-bottom: 50px;
+}
+
+
+.inputform {
+	width: 400px;
+	background-color: #406a80;
+}
+
+
+.inputform div {
+		display:  flex;
+		text-align: left;
+		padding-top: 30px;
+}
+
+
+.inputform div input {
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px lightgray;
+
+}
+
+
+.inputform div p {
+	width: 240px;
+	padding: 10px;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Chivo, sans-serif;
+	color: #edefef;
+}
+
+
+input {
+	border: 3px #8d979f solid;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.calculator {
+	width:345px;
+	text-align: right;
+	padding-top: 20px;
+}
+
+
+.calculator button {
+	font-size: 24px;
+	font-weight:  bold;
+	color: #324856;
+	background-color: #f4f4f4;
+	border:  solid 3px;
+	border-radius: 15px;
+	padding: 10px 32px 10px 32px;
+	box-shadow: 2px 2px 2px gray, 3px 3px 3px lightgray;
+}
+
+.calculator :hover {
+	transform: scale(1.3);
+	transition: ease-out 0.5s;
+	color: darkcyan;
+	box-shadow: 2px 2px 2px cyan;
+}
+
+
+.pFP {
+	text-align: center;
+	padding: 80px;
+	background-color: #f4f4f4;
+	color: #5d6163;
+	font-size: 40px;
+}
+
+
+.pFP:hover {
+	transition: all 0.5s ease-in-out;
+	transform: rotateZ(360deg);
+	background-color: darkcyan;
+	color: #2a4a5a;
+	font-weight: bold;
+	font-size: 44px;
+}
